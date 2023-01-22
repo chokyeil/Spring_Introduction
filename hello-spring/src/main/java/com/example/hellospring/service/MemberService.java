@@ -9,12 +9,11 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Service
+
 public class MemberService {
 
     private final MemberRespository memberRespository;
 
-    @Autowired
     public MemberService(MemberRespository memberRespository) {
         this.memberRespository = memberRespository;
     }
